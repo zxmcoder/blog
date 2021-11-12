@@ -1,8 +1,9 @@
-# Blog
-根据[阮一峰的文章](https://www.ruanyifeng.com/blog/2021/08/best-note-taking-software-for-programmers.html)引导设置的个人博客
+## 关于我
 
-# TimeLog
+**最大的焦虑来自于理想与现实的鸿沟。**
 
-- `2021.11.12` 正式开启长期博客的记录，以前在不同平台写过很多博客，但总是坚持不下去，这次作为自己的长期博客记录一定要记录下去了。
+### 方法论
 
-[个人简历](Resume.md)
+- 注重效率，更快更好的完成工作才能做到自我成长。
+
+## [TimeLog](time_log.md)
