@@ -85,14 +85,16 @@ void f(const double speed)
     constexpr auto C = 9.0;
 
     static_assert(local_max < C, "too fast!");
-    static_assert(speed < C, "speed too fast!");
+    // static_assert(speed < C, "speed too fast!");
 }
 
 int main()
 {
     // static_assert 和 constexpr一般配合使用
-    f(11);
+    f(11.0);
     // static_assert最重要的用途是为泛型编程中作为形参的类型设置断言
+
+    // 其实对于static_assert 和 constexpr 都记住编译期间就行了。
     return 0;
 }
 ```
