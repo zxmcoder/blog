@@ -187,3 +187,64 @@ std::move()不会真的移动什么，而是负责将一个左值转换成右值
 10. 如果一个类写了自己的析构函数，那么极有可能需要自定义自己的移动和拷贝函数
 11. 如果一个类被作为资源句柄，则需要为它提供构造函数，析构函数，以及非默认的拷贝和移动操作。
 12. 默认情况下，把单参数的构造函数声明为explict的
+
+#### 模板实例化发生的时机
+
+发生在编译过程的后期，所以很多模板实例化的错误信息都很难看懂。
+
+#### 模板的值参数
+
+1. `using value_type = T`
+2. `constexpt size_t size() { return N; }`
+
+```
+#include <iostream>
+
+using namespace std;
+
+template<typename T, size_t N>
+struct Buffer
+{
+    using value_type = T;
+    constexpr static size_t size() { return N; }
+    T elem[N];
+};
+
+int main()
+{
+    cout << Buffer<char, 1024>::size() << endl;
+}
+```
+
+#### using和typedef
+
+```
+#include <iostream>
+
+using namespace std;
+
+template<typename T, size_t N>
+struct Buffer
+{
+    using value_type = T;
+    constexpr static size_t size() { return N; }
+    T elem[N];
+};
+
+int main()
+{
+    cout << Buffer<char, 1024>::size() << endl; 
+    // 下面这两条typedef 或者是 using 的作用是一致的
+    // 还可以关注一下typename的用法
+    // using type = Buffer<char, 1024>::value_type;
+    typedef Buffer<char, 1024>::value_type type;
+    type c = 'c';
+    cout << c << endl;
+}
+```
+
+#### 第五章总结
+
+1. 模板不存在分离式编译，用到模板的地方都应该#include相应的模板。
+2. 使用模板的时候要保证它的定义在作用域内。
+3. 把函数对象作为算法的参数。
