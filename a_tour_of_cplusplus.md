@@ -328,4 +328,27 @@ string的性能受程序运行时的环境特别大，当出现大量的短字�
 
 #### 第十二章总结
 
+#### 第十三章总结 & C++并发一览
+
+1. 不要把并发当成灵丹妙药，如果串行能解决问题，很明显串行更快。
+2. 两个没有同步机制的线程同时使用cout会有问题。因为cout本身不是一个线程安全的对象。
+3. defer_lock可以一次性获得所有的锁，但是通过锁的方式来通信和同步抽象层次太低了……
+4. 一个利用条件变量和锁写的简单的生产者消费者模型。
+5. future promise async() packaged_task()
+6. packged_task()是一种资源句柄，它拥有一个promise且间接的负责其任务所拥有的资源。
+7. 其实最好用的还是async(),无需关心底层的细节，async()真的很好用啊，异步。
+8. 只要性能可以接受，就应该选择更高层次的抽象。
+9. lock free 的设计太过复杂，留给专家吧！
+10. 不要裸使用thread，从任务角度使用并发。
+11. 读而不写，就不会有数据竞争的问题！
+12. 最好的并发就是没有并发，最好的多线程就是看上去没有线程。
+13. 仅调用一次：`static std::once_flag flag` `call_once()`
+14. 线程局部存储 `thread_local`
+15. 原子变量。mutex的成本太高，应该使用atomic，不是所有的类型都可以原子化的，store，load，fetch_add，fetch_sub，compare_exchange_weak，compare_exchange_strong，CAS，TAS，atomic_flag。
+16. TAS用来保证绝对无锁，无锁数据结构(趋近于并行的过程)，boost.lock_free。
+17. std::this_thread
+18. async()不显式的获取它的future，它就会变成同步阻塞的类型。
+19. thread.detach()在不关心返回值的时候特别好用，例如(点赞+1)写数据库一类的操作，虽然是写但是不是很重要。
+20. volatile只是表示变量易变，与线程没有任何关系。C++中不加锁应该用atomic变量。
+
 
