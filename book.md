@@ -6,6 +6,6 @@
 
 ## 进行中
 
-### >>>> [操作系统导论](https://weread.qq.com/web/reader/db8329d071cc7f70db8a479kc81322c012c81e728d9d180)
+### >>>> <del>[操作系统导论](https://weread.qq.com/web/reader/db8329d071cc7f70db8a479kc81322c012c81e728d9d180)</del>
 
 ### >>>> [透视HTTP协议](https://time.geekbang.org/column/article/104024)
