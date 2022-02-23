@@ -1,5 +1,3 @@
-# Blog
-
 ## Done
 
 ### >>>> [a_tour_of_cplusplus](a_tour_of_cplusplus.md)
