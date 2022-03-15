@@ -12,14 +12,16 @@
 
 ### >>>> [透视HTTP协议](https://time.geekbang.org/column/article/104024)
 
-## WIP
-
 ### >>>> ClickHouse原理解析与应用实践.PDF
 
+## WIP
+
+### >>>> MySQL是怎样运行的.PDF
+
 ## Todo
+
+### >>>> Redis总结(小林+bilibili).md
 
 ### >>>> [操作系统导论](https://weread.qq.com/web/reader/db8329d071cc7f70db8a479kc81322c012c81e728d9d180)
 
 ### >>>> [Linux手册](linux_base.md)
-
-### >>>> MySQL是怎样运行的.PDF
