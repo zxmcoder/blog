@@ -12,7 +12,7 @@
 
 ### >>>> [透视HTTP协议](https://time.geekbang.org/column/article/104024)
 
-### >>>> ClickHouse原理解析与应用实践.PDF
+### >>>> [ClickHouse原理解析与应用实践.PDF](https://weread.qq.com/web/reader/03532e3071e24e90035375d)
 
 ## WIP
 
