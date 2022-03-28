@@ -12,11 +12,11 @@
 
 ### >>>> [透视HTTP协议](https://time.geekbang.org/column/article/104024)
 
-### >>>> [ClickHouse原理解析与应用实践.PDF](https://weread.qq.com/web/reader/03532e3071e24e90035375d)
+### >>>> [ClickHouse原理解析与应用实践](https://weread.qq.com/web/reader/03532e3071e24e90035375d)
 
 ## WIP
 
-### >>>> [MySQL是怎样运行的.PDF](https://juejin.cn/book/6844733769996304392)
+### >>>> [MySQL是怎样运行的](https://juejin.cn/book/6844733769996304392)
 
 ## Todo
 
