@@ -32,4 +32,6 @@
 
 ### >>>> [操作系统导论](https://weread.qq.com/web/reader/db8329d071cc7f70db8a479kc81322c012c81e728d9d180)
 
+### >>>> [WebServer项目八股](https://www.nowcoder.com/courses/cover/live/504)
+
 ### >>>> [Linux手册](linux_base.md)
