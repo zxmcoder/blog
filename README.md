@@ -14,6 +14,8 @@
 
 ### >>>> [ClickHouse原理解析与应用实践](https://weread.qq.com/web/reader/03532e3071e24e90035375d)
 
+### >>>> [Redis八股文视频](https://www.bilibili.com/video/BV1aU4y1Z71c?spm_id_from=333.999.0.0)
+
 ## WIP
 
 ### >>>> [MySQL是怎样运行的](https://juejin.cn/book/6844733769996304392)
@@ -26,8 +28,6 @@
 
 ### >>>> [DDIA](https://vonng.github.io/ddia/#/)
 
-### >>>> [Redis八股文视频](https://www.bilibili.com/video/BV1aU4y1Z71c?spm_id_from=333.999.0.0)
-
 ### >>>> [小林八股文](https://xiaolincoding.com/)
 
 ### >>>> [操作系统导论](https://weread.qq.com/web/reader/db8329d071cc7f70db8a479kc81322c012c81e728d9d180)
@@ -35,7 +35,3 @@
 ### >>>> [WebServer项目八股](https://www.nowcoder.com/courses/cover/live/504)
 
 ### >>>> [Linux手册](linux_base.md)
-
-## 面试问题查漏补缺
-
-
